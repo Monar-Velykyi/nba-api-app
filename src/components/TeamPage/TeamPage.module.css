@@ -1,0 +1,82 @@
+.listOfPlayerItems {
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.playersItem {
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.logo {
+    width: 40px;
+    height: 100%;
+}
+
+.gameItem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.teams {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    font-size: 15px;
+}
+
+.hTeam,
+.vTeam {
+    padding: 1em;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+}
+
+.teamInfo {
+    padding: 1;
+}
+
+.names {
+    display: flex;
+    align-items: center;
+}
+
+.loader {
+    padding: 50px;
+    background: #87CEEB;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: none;
+}
