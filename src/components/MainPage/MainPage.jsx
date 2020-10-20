@@ -38,8 +38,10 @@ const MainPage = ({leagues, getLeagues, getLeaguesTeam, sortProducts, teams}) =>
                     </select>
                 </div>
             </div>
-            <button type={'city'} onClick={(e) => sortProducts(teams, e.target.type)}>Фильтр по городам</button>
-            <button type={'fullName'} onClick={(e) => sortProducts(teams, e.target.type)}>Фильтр по имени</button>
+            <div className={style.buttons}>
+                <button type={'city'} onClick={(e) => sortProducts(teams, e.target.type)}>Фильтр по городам</button>
+                <button type={'fullName'} onClick={(e) => sortProducts(teams, e.target.type)}>Фильтр по имени</button>
+            </div>
             <TeamInfo/>
         </div>
     )

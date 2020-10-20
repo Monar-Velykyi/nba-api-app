@@ -1,9 +1,9 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux'
 import { reducer as formReducer } from 'redux-form'
 import thunk from 'redux-thunk';
-import { leagueData } from './reducer'
+import { leagueData } from './leagues-reducer'
 import { leaguesTeamData } from './teams-reducer'
-import { teamData } from './teamInfo-reducer'
+import { teamData } from './leagues_team-reducer'
 
 
 const reducer = combineReducers({

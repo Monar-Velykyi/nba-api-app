@@ -13,6 +13,7 @@ const TeamElement = (props) => {
                 <img src={props.logo} className={style.logo}/>
                 <div className={style.names}>
                     <h1>{props.fullName}</h1>
+                    <h2>{props.city}</h2>
                     <h2>{props.nickname}</h2>
                 </div>
             </div>

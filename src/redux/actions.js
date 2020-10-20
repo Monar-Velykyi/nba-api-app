@@ -96,6 +96,7 @@ const orderByNameSucces = (teams, type) => {
         },
     }
 }
+
 export const getAllLeagues = () => {
     const options = {
         method: 'GET',
