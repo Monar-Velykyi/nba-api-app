@@ -103,7 +103,7 @@ export const getAllLeagues = () => {
         url: 'https://rapidapi.p.rapidapi.com/leagues/',
         headers: {
             'x-rapidapi-host': 'api-nba-v1.p.rapidapi.com',
-            'x-rapidapi-key': 'f11cf9c50fmsh110b56fdd7af978p19b4e6jsn483ad21f2e1e'
+            'x-rapidapi-key': ''
         }
     };
     return dispatch => {
@@ -124,7 +124,7 @@ export const getAllLeagueTeams = (league) => {
         url: `https://rapidapi.p.rapidapi.com/teams/league/${league}`,
         headers: {
             'x-rapidapi-host': 'api-nba-v1.p.rapidapi.com',
-            'x-rapidapi-key': 'f11cf9c50fmsh110b56fdd7af978p19b4e6jsn483ad21f2e1e'
+            'x-rapidapi-key': ''
         }
     };
     return dispatch => {
@@ -145,7 +145,7 @@ export const getAllTeamData = (teamId) => {
         url: `https://rapidapi.p.rapidapi.com/players/teamId/${teamId}`,
         headers: {
             'x-rapidapi-host': 'api-nba-v1.p.rapidapi.com',
-            'x-rapidapi-key': 'f11cf9c50fmsh110b56fdd7af978p19b4e6jsn483ad21f2e1e'
+            'x-rapidapi-key': ''
         }
     };
 
@@ -154,7 +154,7 @@ export const getAllTeamData = (teamId) => {
         url: `https://rapidapi.p.rapidapi.com/games/teamId/${teamId}`,
         headers: {
             'x-rapidapi-host': 'api-nba-v1.p.rapidapi.com',
-            'x-rapidapi-key': 'f11cf9c50fmsh110b56fdd7af978p19b4e6jsn483ad21f2e1e'
+            'x-rapidapi-key': ''
         }
     };
 
