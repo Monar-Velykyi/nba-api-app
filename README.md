@@ -1,3 +1,7 @@
+В файле actions.js надо вставить апи ключ (4 раза) , который можно взять тут - https://rapidapi.com/api-sports/api/api-nba.
+
+Страница авторизации password: rootpassword, email: root@gmail.com
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
